@@ -1,0 +1,29 @@
+*****CHAT APP*******
+1. Paste NODE file into 
+    - C:\xampp\htdocs
+2. START xampp 
+    1.1 apache - click on admin
+    1.2 MySql -  click on admin
+3. OPEN code in any code-editor (ex:- vs code,Sublime Text, etc)
+    - open terminal & RUN following commands
+        i. C:\xampp\htdocs\node> cd .\nodeServer  
+        ii. C:\xampp\htdocs\node\nodeServer> npm i socket.io    
+        iii. C:\xampp\htdocs\node\nodeServer>  nodemon .\index.js
+4. open browser where apache & MySql is run already
+    - click on WELCOME TO XAMPP 
+    - then click on searchbar 
+        search for :) localhost/node/index.php
+5. Login/sign up
+6. open CHAT SECTION 
+    - Enter your name in POPUP window (xyz)
+    - xyz User ready to chat 
+********************************************
+{
+    #for creating second user manually 
+     - open NEW tab
+     - SEARCH FOR:localhost/node/index.php
+     - login/sign up
+     - Open CHAT SECTION  
+     - Enter your name in PopUp window (abc)
+     - second user is ready to chat with first user(xyz)
+}
